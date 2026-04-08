@@ -1,0 +1,72 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+  transition: 0.3s;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #0077cc;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: #333;
+}
+
+nav a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #0077cc;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+.profile {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  box-shadow: 0 0 10px gray;
+}
+
+.gallery-img {
+  width: 200px;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.gallery-img:hover {
+  transform: scale(1.1);
+}
+
+/* Dark Mode */
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark header {
+  background: #222;
+}
+
+.dark nav {
+  background: black;
+}
